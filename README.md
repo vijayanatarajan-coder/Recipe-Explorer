@@ -6,4 +6,4 @@ Features - Recipes-explorer has features like search bar in which user can searc
 
 Technologies and tools - React.js, CSS, VS Code.
 
-Link to the project - https://meall-explorer.netlify.app/
+Link to the project - https://meal-explorer.netlify.app/
