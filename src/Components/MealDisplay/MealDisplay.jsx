@@ -11,7 +11,7 @@ const MealDisplay = ({ meals }) => {
       {meals.length > 0 ? (
         meals.map((meal) => (
           <Link
-            to={`/meal/${meal.idMeal}`} // Navigate to the detail page with the meal ID
+            to={`/meal/${meal.idMeal}`}
             key={meal.idMeal}
             className="recipe-link-wrapper"
           >
@@ -30,7 +30,7 @@ const MealDisplay = ({ meals }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="recipe-link flex"
-                onClick={(e) => e.stopPropagation()} // Prevent navigation when clicking on YouTube link
+                onClick={(e) => e.stopPropagation()}
               >
                 Watch Recipe <FaYoutube className="youtube" />
               </a>
