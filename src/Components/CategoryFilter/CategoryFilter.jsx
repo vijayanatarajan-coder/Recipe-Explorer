@@ -1,7 +1,7 @@
 import React from "react";
 import "./CategoryFilter.css";
 
-const FilterComponent = ({ categories, onCategoryClick }) => {
+const CategoryFilter = ({ categories, onCategoryClick }) => {
   return (
     <fieldset className="filter-buttons flex">
       <legend>Filter meals by category</legend>
@@ -18,4 +18,4 @@ const FilterComponent = ({ categories, onCategoryClick }) => {
   );
 };
 
-export default FilterComponent;
+export default CategoryFilter;

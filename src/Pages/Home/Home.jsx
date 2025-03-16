@@ -8,8 +8,8 @@ import {
   fetchMealsByCategory,
 } from "../../Components/ApiServices/ApiServices";
 import MealDisplay from "../../Components/MealDisplay/MealDisplay";
-import SearchBar from "../../Components/MealSearch/MealSearch";
-import FilterComponent from "../../Components/CategoryFilter/CategoryFilter";
+import MealSearch from "../../Components/MealSearch/MealSearch";
+import CategoryFilter from "../../Components/CategoryFilter/CategoryFilter";
 
 const Home = () => {
   const [meals, setMeals] = useState([]);
@@ -83,8 +83,8 @@ const Home = () => {
   };
   return (
     <main>
-      <SearchBar onSearch={handleSearch} />
-      <FilterComponent
+      <MealSearch onSearch={handleSearch} />
+      <CategoryFilter
         categories={categories}
         onCategoryClick={handleCategoryClick}
       />

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./MealSearch.css";
-const SearchBar = ({ onSearch }) => {
+const MealSearch = ({ onSearch }) => {
   const [query, setQuery] = useState("");
 
   const handleSubmit = (e) => {
@@ -29,4 +29,4 @@ const SearchBar = ({ onSearch }) => {
   );
 };
 
-export default SearchBar;
+export default MealSearch;
