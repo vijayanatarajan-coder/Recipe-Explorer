@@ -4,10 +4,10 @@ import "./Logo.css";
 
 const Logo = () => {
   return (
-    <div className="flex">
+    <span className="flex">
       <FaUtensils className="logo-icon" />
       <span className="logo-text">Recipe Explorer</span>
-    </div>
+    </span>
   );
 };
 

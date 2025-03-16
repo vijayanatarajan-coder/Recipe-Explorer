@@ -10,11 +10,8 @@
 .searchbar {
   justify-content: var(--justify-content);
   margin: var(--spacing-2);
-  /* width: 100%;
-  max-width: 280px; */
 }
 .searchbar input {
-  /* width: 100%; */
   padding: 12px 40px 12px 15px;
   color: var(--secondary-color);
   border: 1px solid var(--tertiary-color);
@@ -28,13 +25,8 @@
   border: var(--text-decoration-1);
   font-size: var(--font-size-mobile-1);
 }
+
 @media (min-width: 768px) {
-  /* .searchbar {
-    position: relative;
-    left: 200px;
-    max-width: 300px;
-    width: 100%;
-  } */
   .searchbar input {
     font-size: var(--primary-font-size);
   }
@@ -42,13 +34,8 @@
     font-size: var(--secondary-font-size);
   }
 }
+
 @media (min-width: 1024px) {
-  /* .searchbar {
-    position: relative;
-    left: 500px;
-    max-width: 400px;
-    width: 100%;
-  } */
   .searchbar input {
     font-size: var(--primary-font-size);
   }

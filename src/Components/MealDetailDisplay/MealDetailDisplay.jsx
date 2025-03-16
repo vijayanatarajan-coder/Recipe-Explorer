@@ -3,7 +3,6 @@ import "./MealDetailDisplay.css";
 const MealDetailDisplay = ({ meal }) => {
   return (
     <article className="meal-detail">
-      {/* Header Section */}
       <header className="meal-header">
         <h1>{meal.strMeal}</h1>
         <figure className="meal-figure">
@@ -15,7 +14,6 @@ const MealDetailDisplay = ({ meal }) => {
         </figure>
       </header>
 
-      {/* Info Section */}
       <section className="meal-info">
         <h2>Meal Information</h2>
         <p>
@@ -26,7 +24,6 @@ const MealDetailDisplay = ({ meal }) => {
         </p>
       </section>
 
-      {/* Ingredients Section */}
       <section className="ingredients">
         <h2>Ingredients</h2>
         <ul>
@@ -40,7 +37,6 @@ const MealDetailDisplay = ({ meal }) => {
         </ul>
       </section>
 
-      {/* Instructions Section */}
       <section className="instructions">
         <h2>Instructions</h2>
         <ol>

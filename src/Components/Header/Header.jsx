@@ -5,9 +5,7 @@ import Logo from "../Logo/Logo";
 const Header = () => {
   return (
     <header className="flex" aria-label="Main Header">
-      <div>
-        <Logo />
-      </div>
+      <Logo />
       <nav>
         <Nav />
       </nav>
