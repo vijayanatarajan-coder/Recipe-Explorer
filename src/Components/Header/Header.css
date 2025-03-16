@@ -1,0 +1,5 @@
+header {
+  padding: var(--spacing-3);
+  box-shadow: var(--shadow);
+  justify-content: space-between;
+}

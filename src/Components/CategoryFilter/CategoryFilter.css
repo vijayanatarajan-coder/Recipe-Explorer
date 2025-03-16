@@ -1,0 +1,43 @@
+legend {
+  color: var(--secondary-color);
+  font-size: var(--font-size-mobile-2);
+}
+
+.filter-buttons {
+  gap: var(--spacing-2);
+  justify-content: var(--justify-content);
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 5px 10px;
+  border: 1px solid var(--tertiary-color);
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: var(--spacing-3);
+  cursor: pointer;
+  font-size: var(--font-size-mobile-2);
+  transition: all 0.3s ease-in-out;
+}
+
+.filter-buttons button:hover,
+.filter-buttons button.active {
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+}
+@media (min-width: 768px) {
+  legend {
+    font-size: var(--primary-font-size);
+  }
+  .filter-buttons button {
+    font-size: var(--primary-font-size);
+  }
+}
+@media (min-width: 1024px) {
+  legend {
+    font-size: var(--primary-font-size);
+  }
+  .filter-buttons button {
+    font-size: var(--secondary-font-size);
+  }
+}

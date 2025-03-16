@@ -1,0 +1,18 @@
+footer p {
+  font-size: var(--font-size-mobile-2);
+}
+footer {
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+  justify-content: var(--justify-content);
+  padding: var(--spacing-2);
+}
+@media (min-width: 768px) {
+  footer p {
+    font-size: var(--primary-font-size);
+  }
+}
+@media (min-width: 1024px) {
+  footer p {
+    font-size: var(--secondary-font-size);
+  }
+}

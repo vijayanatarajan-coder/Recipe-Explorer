@@ -1,0 +1,30 @@
+.navbar ul {
+  list-style: var(--text-decoration-1);
+  padding: 0px;
+  margin: 0px;
+}
+.navbar li {
+  padding: var(--spacing-1);
+}
+.navbar a {
+  text-decoration: var(--text-decoration-1);
+  color: var(--secondary-color);
+  font-size: var(--font-size-mobile-1);
+}
+.navbar li:hover {
+  text-decoration: var(--text-decoration-2);
+  color: var(--tertiary-color);
+}
+@media (min-width: 768px) {
+  .navbar a {
+    font-size: var(--primary-font-size);
+  }
+  .navbar li {
+    padding: var(--spacing-2);
+  }
+}
+@media (min-width: 1024px) {
+  .navbar a {
+    font-size: var(--secondary-font-size);
+  }
+}

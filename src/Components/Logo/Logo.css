@@ -1,0 +1,28 @@
+.logo-icon {
+  font-size: var(--font-size-mobile-icon);
+  color: var(--quaternary-color);
+}
+
+.logo-text {
+  font-weight: var(--primary-font-weight);
+  padding: var(--spacing-1);
+  color: var(--tertiary-color);
+  font-size: var(--font-size-mobile-1);
+}
+@media (min-width: 768px) {
+  .logo-icon {
+    font-size: var(--font-size-icon);
+  }
+
+  .logo-text {
+    font-size: var(--secondary-font-size);
+  }
+}
+@media (min-width: 1024px) {
+  .logo-icon {
+    font-size: var(--tertiary-font-size);
+  }
+  .logo-text {
+    font-size: var(--font-size-mobile-icon);
+  }
+}
